@@ -1,0 +1,82 @@
+﻿https://www.youtube.com/watch?v=7x1PDHsQyGw&lc=z13mdhtqkumvxhdku22ewl5yapuqe3go404
+Cào bạn, hiện tại nếu bạn cài xampp thì bạn cài bản mới nhất luôn bạn nhé
+
+https://www.youtube.com/watch?v=jJAWC3pPhyM&lc=z13kubuabtfqzhsax04cczeqmrn3f1nboiw
+Chào bạn, bạn có thể coppy lỗi mà bạn gặp phải để mình hỗ trợ bạn nhé. cám ơn bạn
+
+https://www.youtube.com/watch?v=ngtiTBYWcyI&lc=z12gytdp5sn5xlhfx23bhjlz4ofetd4u2
+Chào bạn, bạn có thể coppy lỗi mà bạn gặp phải để mình hỗ trợ bạn nhé. cám ơn bạn
+
+https://www.youtube.com/watch?v=J_dmVQNknTY&lc=z131xr1huoqrfdtkq23rfzmaxqykw1ecs
+Chào bạn, nếu bạn cài phiên bản mới nhất của laravel là 5.4 thì vẫn sử dụng được hàm find() nhé
+Bạn có thể coppy lỗi mà bạn gặp phải để mình hỗ trợ, cám ơn bạn
+
+https://www.youtube.com/watch?v=tZIZj03jH40&lc=z12ywvjj3lj4i1j4f04cgjqriz2ivznwlvo0k
+(cái này hình như anh Phú ko có share source cuối cùng anh ơi)
+
+https://www.youtube.com/watch?v=J_dmVQNknTY&lc=z13aw3ywqz22g3chq04cirk4tm2xxxih4hg
+(trả lời cho câu này anh Tiến nha: sao em dùng hàm delete bên DB thì được mà dùng hàm delete bên Model Theloai không được ạ)
+Chào bạn, bạn không nên dùng Query Builder trong model bạn nhé, bạn nên dùng ở controller
+
+
+https://www.youtube.com/watch?v=S-QZJk_ms3s&lc=z12gjru5lzuczz10o22tztez5srag1jpr04
+Chào bạn, bạn muốn thêm dữ liệu vào hai bảng thì bạn tạo hai biến và new 2 model tương tự như thêm dữ liệu vào một bảng vậy bạn nhé
+
+
+https://www.youtube.com/watch?v=ofHe4OsEBnE&lc=z13hg1jr2ofyupmuh22ix5posmepw3ax204
+Chào bạn, mình chưa hiểu mục thứ 3 của bạn là sao nhỉ, nếu bạn muốn nó redirect về trang 3 thì bạn truyền cả đường dẫn và tham số page=3 nữa nhé
+
+https://www.youtube.com/watch?v=J_dmVQNknTY&lc=z12qih5xmza3zz4j104cgjqriz2ivznwlvo0k
+Chào bạn, bạn không nên dùng Query Builder trong model bạn nhé, bạn nên dùng ở controller
+
+
+
+https://www.youtube.com/watch?v=urGAK3_UVvI&lc=z12fhzyodpusgv5h004cddczwvr5xjb40o40k
+câu này khó quá em ko tl được anh Tiến ơi kkk nó làm vạy để làm gì, mình có nhiều cách mà, câu này cho anh tl đó :)
+
+
+https://www.youtube.com/watch?v=Zpfy2tbrmgg&lc=z12fx3b4fw3ffn4li23scnhwwwemj3nek
+Chào bạn, bạn có thể dùng hàm http_redirect() nhé
+
+https://www.youtube.com/watch?v=eWmQLZlUzo0&lc=z13sydkynm2yetnkh23lijnxhlqkx55vv
+Chào bạn, biến ở vognf foreach của bạn không lấy được dữ liệu nên báo lỗi nhé, bạn kiểm tra lại câu truy vấn của bạn nha
+
+
+https://www.youtube.com/watch?v=chI2AYZRA-A&lc=z13di5jw2om1iprd323ajrr4kzydg34tb
+Chào bạn, bạn có thể gọi hot line kỹ thuật của trung tâm để được hỗ trọ bạn nhé
+
+
+
+https://www.youtube.com/watch?v=MFRiean--2Y&lc=z12ff1kypujtw11ln23bvffxqyjjfbdfw
+Chào bạn, mục đích của việc định danh route là khi bạn muốn sửa đường dẫn route thì 
+không phải sửa ở những nơi bạn đã gọi route đó bạn nha. Tức là bạn chỉ cần sửa ở 1 file thì các file khác không bị lỗi
+
+https://www.youtube.com/watch?v=AbCsV68Kzrg&lc=z13jif1w5vb3vppyj04cgd0b1yv0fftz55k
+Chào bạn, bạn có thể coppy lỗi mà bạn gặp phải để mình hỗ trợ bạn nhé. cám ơn bạn
+
+https://www.youtube.com/watch?v=qJM_DavMZaU&lc=z12izjh4euicfvs3w22mcv2halyqjd2x304
+Chào bạn, trong câu truy vấn của bạn có thể thêm một điều kiện là where id khác với id của tin đang xem bạn nhé
+
+
+https://www.youtube.com/watch?v=addNLqa3zfg&lc=z13jit3z5ruhejixj04cijkizxahjl3ax2o
+Chào bạn, toán tử new của bạn đang bị lỗi, bạn kiểm tra lại xem đã use các model cần thiết chưa nhé
+
+
+https://www.youtube.com/watch?v=CjKYYTs8qGw&lc=z12psnxbsxfzvj0cf22hh3jwkkr2dfx2h
+Chào bạn, hiện tai laravel cập nhật phiên bản mới nến có một số khác biệt, bạn có thể cài đặt lại project hoặc gọi hotline trung tâm để hỗ trợ bạn nhé
+
+https://www.youtube.com/watch?v=NhxEb4PdcbQ&lc=z13fwdrxyvz3ytckp230hx0x5pqihf1c3
+Chào bạn, bạn kiểm tra thêm điều kiện là người dùng có chọn upload hình không bạn nhé
+
+https://www.youtube.com/watch?v=S-QZJk_ms3s&lc=z12sjjmbvzn2dfumy23exxi4zofet1n2t
+Chào bạn, bạn kiểm tra xem bên controller bạn có lấy được tên thể loại chưa nha, trước khi lưu vào database
+
+
+https://www.youtube.com/watch?v=HvbLH9swaqc&lc=z12gcvzyvz2ehlzc322pyhqanyiddrbwr04
+Chào bạn, bạn dùng jquery để bắt sự kiện click lên checkbox và dùng hàm html() để hiểu thị thẻ div nhé 
+
+
+
+
+
+
