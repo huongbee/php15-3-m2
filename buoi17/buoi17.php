@@ -43,6 +43,6 @@
 
 
 <form method="POST" action="test/hienthi.php" enctype="multipart/form-data">
-	<input type="file" name="hinh">
+	<input type="file" name="hinh[]" multiple>
 	<button type="submit" name="gui">Gửi</button>
 </form>

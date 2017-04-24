@@ -1,31 +1,55 @@
 <?php
 
 if(isset($_POST['gui'])){
-	$file = $_FILES['hinh']; //lấy file từ input
-	$tmp_name = $file['tmp_name'];//lấy tên tạm của file
-	$duongdan = '../image/'.$file['name'];// đường dẫn lưu file
-	$file_size = $file['size'];
 
-	$vitri = strripos($file['name'], '.');
+	//print_r($_FILES['hinh']);
 
-	$file_type = substr($file['name'],$vitri);
-	$file_name = substr($file['name'],0,$vitri);
-	//echo $file_type;
-	//die;
-	move_uploaded_file($tmp_name, $duongdan); die;
-	$mang = array('.jpg', '.png');
-	if(in_array($file_type, $mang)){
-		move_uploaded_file($tmp_name, $duongdan);
-		echo "success";
+	//$hinh = $_FILES['hinh'];
+	foreach($_FILES['hinh']['size'] as $size){
+		if($size > 1024*100){
+			echo "File quá lớn";
+
+			die;
+		}
 	}
 
+	foreach($_FILES['hinh']['name'] as $key=>$name){
+		move_uploaded_file($_FILES['hinh']['tmp_name'][$key], "../image/$name");
+	}
 
-	die;
-	if($file_size < 80000){
+	// $file = $_FILES['hinh']; //lấy file từ input
+	// $tmp_name = $file['tmp_name'];//lấy tên tạm của file
+	
+	// $file_size = $file['size']; //lấy lấy file size
+
+	// $vitri = strripos($file['name'], '.'); //vị trí cắt chuỗi ngăn cách bởi dấu chấm
+
+	// $file_type = substr($file['name'],$vitri); //lấy file type
+	// $file_name = substr($file['name'],0,$vitri); //lấy file name
+	
+	// $duongdan = '../image/'.$file_name.rand(11111,99999).$file_type;// đường dẫn lưu file
+
+	// //echo $duongdan = '../image/'.$file['name'];
+
+	// die;
+	// move_uploaded_file($tmp_name, $duongdan); 
+	// echo 'thành công';
+
+
+	// die;
+	// // $mang = array('.jpg', '.png');
+	// // if(in_array($file_type, $mang)){
+	// // 	move_uploaded_file($tmp_name, $duongdan);
+	// // 	echo "success";
+	// // }
+
+
+	// die;
+	// if($file_size < 80000){
 		
-		move_uploaded_file($tmp_name, $duongdan);
-		echo "success";
-	}
+	// 	move_uploaded_file($tmp_name, $duongdan);
+	// 	echo "success";
+	// }
 
 
 }
