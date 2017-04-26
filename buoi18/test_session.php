@@ -4,7 +4,14 @@ session_start();
 if(isset($_POST['login'])){
 	$_SESSION['name'] = $_POST['username'];
 	$_SESSION['password'] = $_POST['password'];
-	
+	if($_POST['remember'] == "on" || $_POST['remember'] ==1){
+		setcookie('username',"admin",time()+120);
+		setcookie('password',"123",time()+120);
+	}
+	else{
+		setcookie('username',"admin",time()-120);
+		setcookie('password',"123",time()-120);
+	}
 }
 ?>
 <!DOCTYPE html>
@@ -28,13 +35,28 @@ if(isset($_POST['login'])){
 		<div class="col-md-10">
 		<?php
 
+		if(isset($_SESSION['name']) && $_SESSION['password']){
 
-		if($_SESSION['name'] == "admin" && $_SESSION['password']=='123'){
+			if($_SESSION['name'] == "admin" && $_SESSION['password']=='123'){
 			echo "Chào bạn, ".$_SESSION['name'];
+			}
+			else{
+				header('Location:session.php');
+			}
+		}
+		elseif(isset($_COOKIE['username']) && isset($_COOKIE['password'])){
+
+			if($_COOKIE['username'] == "admin" && $_COOKIE['password']=='123'){
+				echo "Chào bạn, ".$_COOKIE['username'];
+			}
+			else{
+				header('Location:session.php');
+			}
 		}
 		else{
 			header('Location:session.php');
 		}
+
 
 
 		?>
